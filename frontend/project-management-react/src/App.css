@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.app {
+  padding: 40px;
+  text-align: center;
+}
+
+.app h1 {
+  color: #222;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  color: #666;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  width: 280px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.project-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.project-card p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.summary div {
+  background: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.summary h3 {
+  font-size: 30px;
+  margin: 0;
+  color: #333;
+}
+
+.summary p {
+  color: #666;
+}
+
+.tasks {
+  background: white;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.tasks h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.task:last-child {
+  border-bottom: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 25px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h2 {
+  margin: 0;
+  color: #333;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links span {
+  color: #555;
+  cursor: pointer;
+}
+
+.nav-links span:hover {
+  color: #000;
+}.add-button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.add-button:hover {
+  background: #555;
+}
